@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", cursive;
+}
+
+.nav-link, .breadcrumb-item{
+	padding: 10px 0 10px 30px;
+	transition: all .2s;
+	color: #bfc0cd;
+}
+
+.nav-link:hover, .breadcrumb-item a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.card{
+	box-shadow: 0 0 8px 2px rgba(250,250,250,0.1);
+}
+
+.card-left{
+	border-radius: 5px;
+}
